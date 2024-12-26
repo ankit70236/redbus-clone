@@ -2,8 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    cursor: pointer;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif,;
 }
 .header{
     display: flex;
@@ -21,8 +20,10 @@
     height: 80px;
 }
 .logo1{
-    padding: 15px 0;
+    margin: 15px 0 ;
     width: 150px;
+    height: 40px;
+    border-right: 1px solid #2f2b2b;
 }
 .logo2{
     padding: 15px 0;
@@ -133,7 +134,7 @@
 }
 .hero-content1{
   
-  width: 83%;
+  width: 80%;
   background-color: rgb(255, 255, 255);
   height: 300px;
   position: absolute;
@@ -168,7 +169,7 @@
 .hero-col1{
   width: 27%;
   height: 170px;
-  background-color: #1A4AA1;
+  background-image: linear-gradient(71.04deg, rgb(12, 57, 139) -6.92%, rgb(62, 118, 216) 109.43%);
   border-radius: 20px;
   display: flex;
   
@@ -184,7 +185,7 @@
 .hero-col2{
   width: 27%;
   height: 170px;
-  background-color: #47AF8A;
+  background-image: linear-gradient(71.04deg, rgb(39, 57, 101) -6.92%, rgb(80, 210, 149) 109.43%);
   border-radius: 20px;
   display: flex;
   
@@ -200,7 +201,7 @@
 .hero-col3{
   width: 27%;
   height: 170px;
-  background-color: #9E2F34;
+  background-image: linear-gradient(71.04deg, rgb(72, 0, 4) -6.92%, rgb(216, 78, 85) 109.43%);
   border-radius: 20px;
   display: flex;
   
@@ -215,6 +216,10 @@
 }
 .bus{
   padding: 10px;
+}
+.bus a{
+  color: #ffffff;
+  text-decoration: none;
 }
 .bus1{
   width: 50px;
@@ -708,6 +713,10 @@ background: url(images/redbus33.svg ) no-repeat ;
 .mainpart8{
   margin: 280px 160px 100px 165px;
 }
+.mainpart8col1 a{
+  text-decoration: none;
+  color: #2f2b2b;
+}
 .mainpart8row1{
   margin-top: 40px;
   display: flex;
@@ -724,7 +733,7 @@ background: url(images/redbus33.svg ) no-repeat ;
   padding-top: 10px;
   margin-left: 5px;
 }
-.mainpart8col1 h3:hover{
+.mainpart8col1:hover h3{
   background-color: #F2F2F8;
   border-radius: 30px;
 }
@@ -743,6 +752,7 @@ background: url(images/redbus33.svg ) no-repeat ;
   color: #2f2b2b;
   line-height: 30px;
   margin-bottom: 30px;
+  letter-spacing: 1px;
 }
 .mainpart9 button{
   color: #1A4AA1;
@@ -773,13 +783,16 @@ background: url(images/redbus33.svg ) no-repeat ;
 }
 .mainpart10row1{
   border: #555 1px solid;
-  padding: 80px 40px 30px 40px;
+  padding: 50px 40px 10px 40px;
   border-radius: 30px;
   display: flex;
   gap: 20px;
 }
+.mainpart10col1 a{
+  text-decoration: none;
+}
 .mainpart10row1 img{
-  margin-top: -60px;
+  margin-top: 15px;
 }
 .mainpart10col1 span{
   color: #D84E55;
@@ -787,12 +800,17 @@ background: url(images/redbus33.svg ) no-repeat ;
 .mainpart10row1 button{
   height: 50px;
   margin-left: 290px;
+  margin-top: 15px;
   padding: 0px 30px ;
   background-color: #D84E55;
   border-radius: 10px;
   font-size: 16px;
   color: #ffffff;
   border: none;
+}
+.mainpart10row1 button a{
+  color: #ffffff;
+  text-decoration: none;
 }
 .mainpart11{
   margin: 40px 160px 30px 165px;
@@ -810,18 +828,21 @@ background: url(images/redbus33.svg ) no-repeat ;
   text-decoration: none;
   color: #000;
   font-size: 20px;
+  margin: .75rem 0.5rem;
 }
 .mainpart11a{
-  text-decoration: underline;
+  border-bottom: 3px solid #D84E55;
+  text-decoration: none;
   color: #D84E55;
   font-size: 20px;
   padding-bottom: 10px;
+  margin: .75rem 0.5rem;
 }
 .mainpart11a:hover{
-  text-decoration: underline;
+  border-bottom: 3px solid #D84E55;
 }
 .mainpart11a1:hover{
-  text-decoration: underline #8e8a8a;
+  border-bottom: 3px solid #8e8a8a;
 }
 .mainpart12{
   margin: 40px 160px 100px 165px;
@@ -833,6 +854,15 @@ background: url(images/redbus33.svg ) no-repeat ;
   display: flex;
   justify-content: space-between;
   margin: 20px 0px 10px 0px;
+}
+.mainpart12row1 a{
+  text-decoration: none;
+  color: #000;
+}
+.mainpart12row1 p{
+  font-weight: 700;
+  font-size: 17px;
+  color: #000;
 }
 .mainpart12row1 i{
   font-size: 18px;
@@ -856,6 +886,9 @@ background: url(images/redbus33.svg ) no-repeat ;
 .footer1h2 i{
   color: #2f2b2b;
   font-size: 18px;
+}
+.footer1h2 a{
+  text-decoration: none;
 }
 .footer1h2 h2{
   color: #563E52;
@@ -881,7 +914,7 @@ background: url(images/redbus33.svg ) no-repeat ;
 .footer2row2 a{
   text-decoration: none;
   color: #555;
-  font-size: 14px;
+  font-size: 16px;
 }
 .footer3{
   margin: 0px 160px 0px 165px;
@@ -899,4 +932,7 @@ background: url(images/redbus33.svg ) no-repeat ;
 }
 .footer3row2{
   font-size: 20px;
+}
+.footer3row2 a{
+  color: black;
 }
